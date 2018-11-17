@@ -27,7 +27,7 @@ void momentarySwitch::setSwPinActiveHigh()
 }
 
 int momentarySwitch::getSw() {
-  int sw = 0;
+  int sw = -1;
   bool swstate = digitalRead(_swPin);
   if (swstate != lastSwState) {
     if ((lastSwTime + _debounceValue) < millis()) {
@@ -38,7 +38,7 @@ int momentarySwitch::getSw() {
       }
       else { //button has been released
         SwHold = false; {
-          sw = -1;
+          sw = 0;
         }
       }
       lastSwState = swstate;
