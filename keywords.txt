@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map For momentarySwitch
+####################################### 
+# Class (KEYWORD1)
+#######################################
+
+momentarySwitch		KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2) 
+#######################################	
+
+begin				KEYWORD2
+getSw				KEYWORD2
+getSwHoldTime		KEYWORD2
+setSwPinActiveHigh	KEYWORD2
+
+######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+#######################################
+# Constants
+#######################################
+ 
