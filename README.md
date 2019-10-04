@@ -2,8 +2,7 @@
 
 ***
 Update 04.10.2019: 
-Returned value for "no change" has been changed from -1 to 0
-Returned value for "button was released" has been changed from 0 to -1
+Returned value for "no change" has been changed from -1 to 0, returned value for "button was released" has been changed from 0 to -1
 ***
 
 Arduino library for reading momentary button switches
