@@ -21,6 +21,7 @@ momentarySwitch button_1(5, 1, 10);
 void setup() {
   Serial.begin(9600);
   button_1.begin();
+  //button_1.setSwPinActiveHigh(); //uncomment if you use external pull-down resistor 
 }
 
 void loop() {

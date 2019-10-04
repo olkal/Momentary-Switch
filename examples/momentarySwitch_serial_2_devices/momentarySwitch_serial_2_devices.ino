@@ -23,6 +23,8 @@ void setup() {
   Serial.begin(9600);
   button_1.begin();
   button_2.begin();
+  //button_1.setSwPinActiveHigh(); //uncomment if you use external pull-down resistor 
+  //button_2.setSwPinActiveHigh(); //uncomment if you use external pull-down resistor 
 }
 
 void loop() {

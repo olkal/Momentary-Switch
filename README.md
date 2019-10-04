@@ -1,9 +1,16 @@
 # Momentary-Switch
+
+***
+Update 04.10.2019: 
+Returned value for "no change" has been changed from -1 to 0
+Returned value for "button was released" has been changed from 0 to -1
+***
+
 Arduino library for reading momentary button switches
 
    The getSw() function returns current switch status:
-   - returned value -1: no change
-   - returned value 0: switch button was released
+   - returned value 0: no change
+   - returned value -1: switch button was released
    - returned value 1: switch button was pressed
    - returned value >1: switch button pressed and held for returned value-1 seconds
    
