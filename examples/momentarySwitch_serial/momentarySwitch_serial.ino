@@ -29,9 +29,9 @@ void loop() {
   //update switch 
   int switchval;
   switchval = button_1.getSw();
-  if (switchval > -1) {
+  if (switchval != 0) {
     Serial.print("value: "); Serial.print(switchval);
-    if (switchval == 0) {
+    if (switchval == -1) {
       Serial.print(", button released");
     }
     else if (switchval == 1) {
